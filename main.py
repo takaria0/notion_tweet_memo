@@ -2,11 +2,8 @@ from notion.client import NotionClient
 from notion.block import VideoBlock, EmbedBlock, TextBlock
 import tweepy
 import json
-
 from config import TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_SECRET, TWITTER_COMSUMER_KEY, TWITTER_COMSUMER_SECRET, TWITTER_BEARER_TOKEN, NOTION_TOKEN, TWITTER_USERNAME
-
 from config import NOTION_PAGE_URL
-
 
 
 client = NotionClient(token_v2=NOTION_TOKEN)
